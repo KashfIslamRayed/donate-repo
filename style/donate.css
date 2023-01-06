@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* button */
@@ -12,14 +15,40 @@
     color: white;
 }
 
-.btn-2 {
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
     padding: 20px 12px;
-    border-color: rgb(244, 37, 37);
-    color: rgb(244, 37, 37);
-    background-color: #FFEEEE;
+    border-color: rgb(246, 93, 93);
+    border: 2px solid #fafafa;
+    color: #707070;
+    font-weight: 800;
+    font-size: 18px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    align-items: center;
+    background-color: #fafafa;
     border-radius: 4px;
 }
-.btn-3{
+
+
+.card:hover {
+    background-color: #ffeeee;
+    color: #ff5959;
+    border: 2px solid #ff7171
+}
+
+.card_text {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.btn-3 {
     border: 0;
     padding: 10px 15px;
     background: rgb(250, 79, 49);
@@ -28,7 +57,8 @@
     color: white;
     margin-top: 20px;
 }
-.btn5{
+
+.btn5 {
     border: 0;
     padding: 15px 20px;
     background: rgb(250, 79, 49);
@@ -43,21 +73,24 @@
     text-align: center;
     background-image: url(../images/donation8.jpg);
     background-repeat: no-repeat;
-    background-size: 1150px;
-    padding: 150px 150px;
-    color: rgb(238, 238, 238);
+    background-size: 100%;
+    padding: 100px 150px;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.423);
+    height: 100%;
+    background-position: center;
 }
 
 .top-title {
-    width: 750px;
     font-size: 55px;
+    color: white;
 
 }
 
 .top-p {
     margin: 30px 0;
     font-size: 12px;
-
+    color: rgb(238, 238, 238);
 }
 
 .top-div {
@@ -73,6 +106,7 @@
 .nav-title {
     font-size: 40px;
     margin-top: 110px;
+
 }
 
 .nav-p {
@@ -107,78 +141,93 @@
     margin-bottom: 40px;
     font-size: 13px;
 }
-.mega{
+
+.mega {
     display: flex;
     text-align: left;
     gap: 25px;
     margin-left: 150px;
     margin-right: 150px;
 }
-.ab{
+
+.ab {
     background: #FFFFFF;
     border-radius: 3px;
-    background-color:  rgb(203, 243, 249);
+    background-color: rgb(203, 243, 249);
     padding: 30px 25px;
 }
-.bc{
+
+.bc {
     background: #FFFFFF;
     border-radius: 3px;
     background-color: #fbdff8;
     padding: 30px 25px;
 }
-.cd{
+
+.cd {
     background: #FFFFFF;
     border-radius: 3px;
     background-color: #ffffdb;
     padding: 30px 25px;
 }
-.h4-g{
+
+.h4-g {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 20px;
 }
-.s-d1{
+
+.s-d1 {
     display: flex;
     margin-bottom: 60px;
     margin-top: 100px;
     gap: 50px;
 }
-.s-d2{
+
+.s-d2 {
     display: flex;
     gap: 50px;
 }
-.s2{
+
+.s2 {
     gap: 25px;
     margin-left: 100px;
     margin-right: 100px;
 }
-.h5{
-margin-top: 25px;
-margin-bottom: 10px;
-font-size: 35px;
+
+.h5 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 35px;
 }
-.h6{
-margin-top: 25px;
-margin-bottom: 10px;
-font-size: 35px;
+
+.h6 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 35px;
 }
-.p3{
+
+.p3 {
     color: #B3B3B3;
     font-size: 14px;
 }
-.last{
+
+.last {
     margin-top: 100px;
     text-align: center;
 }
-.h-last{
+
+.h-last {
     font-size: 35px;
     margin-bottom: 20px;
 }
-.input-last{
+
+.input-last {
     height: 30px;
     width: 200px;
 }
-.d-last{
+
+.d-last {
     margin-top: 50px;
     padding: 100px;
     margin-bottom: 150px;
@@ -188,7 +237,8 @@ font-size: 35px;
     text-align: center;
     padding-bottom: 140px;
 }
-.last-button{
+
+.last-button {
     background: rgb(250, 79, 49);
     font-weight: 700;
     font-size: 14px;
@@ -199,12 +249,14 @@ font-size: 35px;
     padding-bottom: 0px;
     padding-left: 0px;
 }
-.foot{
+
+.foot {
     background-color: #17003d;
     padding: 50px;
     text-align: center;
 }
-.ft-h{
+
+.ft-h {
     font-size: 30px;
     margin: 5px;
     color: rgb(238, 55, 55);
